@@ -75,6 +75,7 @@
 }
 
 .card-body-custom {
+    text-align: center;
     padding: 10px;
     margin: 10px;
     margin-top: 2.5rem;
@@ -88,6 +89,10 @@
 
 .card.card-custom {
     font-family: "Nunito", sans-serif; !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 .card-custom:hover {
@@ -114,12 +119,14 @@
 }
 
 .card-body-custom-small {
+    text-align: center;
     width: calc(100%);
     text-align: left;
     margin: 0;
 }
 
 .card-body-custom-small>.card-title {
+    text-align: center;
     margin-bottom: 0;
 }
 
@@ -220,6 +227,7 @@
     }
 
     .card-body-custom {
+        text-align: center;
         padding-right: 3px;
         padding-left: 3px;
         margin-right: 0px;
