@@ -11,7 +11,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -32,7 +32,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -593,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .about-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -640,8 +640,6 @@ h1, h2, h3, h4, h5, h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
-  background-size: cover;
   overflow: hidden;
   position: relative;
   color: #fff;
@@ -656,7 +654,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: #f6f7fd;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -664,11 +662,18 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
+#about h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #060c22;
+}
+
 #about h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #060c22;
 }
 
 #about h3 {
@@ -676,14 +681,68 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #060c22;
 }
 
 #about p {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #060c22;
 }
+
+
+
+#mission {
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+@media (min-width: 1024px) {
+  #mission {
+    background-attachment: fixed;
+  }
+}
+
+#mission:before {
+  content: "";
+  background: #f6f7fd;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#mission h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #060c22;
+}
+
+#mission h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #060c22;
+}
+
+#mission h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #060c22;
+}
+
+#mission p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #060c22;
+}
+
 
 /*--------------------------------------------------------------
 # Speakers Section
@@ -967,7 +1026,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #venue .venue-gallery {
   overflow: hidden;
-  border-right: 3px solid #fff;
+  border-right: 3px solid #ffffff;
   border-bottom: 3px solid #fff;
 }
 
@@ -1509,7 +1568,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #fff;
 }
 

@@ -82,15 +82,16 @@
 
 .card-custom {
     border: none;
+    padding: 7px;
     transition: all 0.3s ease-in-out;
 }
 
 .card.card-custom {
-    font-family: "ui-sans-serif", sans-serif; !important;
+    font-family: "Nunito", sans-serif; !important;
 }
 
 .card-custom:hover {
-    transform: scale(1.02);
+    transform: scale(1);
 }
 
 .card-deck-custom {
@@ -104,11 +105,10 @@
 }
 
 .card-img-custom-small {
-    width: 50px !important;
-    height: 50px !important;
-    position: absolute;
-    right: 10px;
-    top: 10px;
+    width: 90px !important;
+    height: 90px !important;
+    right: 5px;
+    top: 5px;
     border: 1px solid #ffffff;
     border-radius: 50%;
 }
