@@ -65,8 +65,8 @@
 }
 
 .card-img-custom {
-    width: 250px !important;
-    height: 250px !important;
+    width: 200px !important;
+    height: 200px !important;
     border: 3px solid #ffffff;
     border-radius: 50%;
     margin-top: 1rem;
@@ -90,7 +90,6 @@
 .card.card-custom {
     font-family: "Nunito", sans-serif; !important;
     align-items: center;
-    text-align: center;
     justify-content: center;
     border-radius: 5px;
 }
@@ -110,8 +109,8 @@
 }
 
 .card-img-custom-small {
-    width: 90px !important;
-    height: 90px !important;
+    width: 80px !important;
+    height: 80px !important;
     right: 5px;
     top: 5px;
     border: 1px solid #ffffff;
@@ -119,9 +118,8 @@
 }
 
 .card-body-custom-small {
-    text-align: center;
     width: calc(100%);
-    text-align: left;
+    text-align: start;
     margin: 0;
 }
 
@@ -227,9 +225,9 @@
     }
 
     .card-body-custom {
-        text-align: center;
+        text-align: start;
         padding-right: 3px;
-        padding-left: 3px;
+        padding-left: 13px;
         margin-right: 0px;
         margin-left: 0px;
     }
