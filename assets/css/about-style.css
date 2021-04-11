@@ -258,3 +258,12 @@
         font-size: 2em;
     }
 }
+
+@media (max-width: 1200px) {
+    .card-deck {
+        flex-direction: column;
+    }
+    .card-custom-top {
+        margin-bottom: 40px !important;
+    }
+}
