@@ -15,13 +15,13 @@ body {
 }
 
 a {
-  color: #37517e;
+  color: #6e82b8;
   text-decoration: none;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #6e82b8;
+  color: #ffffff;
   outline: none;
   text-decoration: none;
 }
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 span {
-  color: #37517e;
+  color: #6e82b8;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -180,11 +180,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
-  background: #37517e;
+  background: #6e82b8;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
-  border: 2px solid #37517e;
+  border: 2px solid #6e82b8;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   line-height: 1;
@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #37517e;
+  background-color: #6e82b8;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #37517e;
+  color: #6e82b8;
 }
 
 .navbar .dropdown:hover > ul {
@@ -404,7 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #37517e;
+  color: #6e82b8;
 }
 
 .navbar-mobile .getstarted {
@@ -436,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #37517e;
+  color: #6e82b8;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -606,11 +606,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #37517e;
+  border: 2px solid #6e82b8;
+  min-width: 186px;
 }
 
 #hero .about-btn:hover {
-  background: #37517e;
+  background: #6e82b8;
   color: #fff;
 }
 
