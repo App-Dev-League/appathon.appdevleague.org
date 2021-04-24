@@ -1175,6 +1175,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .person:hover{
   transform: scale(1.02);
+  box-shadow: 0px 0px 5px #cdc9c9;
+}
+
+.guideline{
+  transition: all .4s ease-in-out;
+}
+
+.guideline:hover{
+  transform: scale(1.02);
 }
 #supporters img {
   transition: all 0.4s ease-in-out;
