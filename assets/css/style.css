@@ -124,6 +124,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #9195a2;
 }
 
+.section-header a {
+  color: #6e82b8;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-header a:hover, a:active, a:focus {
+  color: #37517e;
+  outline: none;
+  text-decoration: none;
+}
+
 .section-with-bg {
   background-color: #f6f7fd;
 }
