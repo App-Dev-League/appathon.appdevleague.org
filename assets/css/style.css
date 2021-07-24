@@ -3,6 +3,8 @@
  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
+ *
+ * @format
  */
 
 /*--------------------------------------------------------------
@@ -11,7 +13,7 @@
 body {
   background: #f6f7fd;
   color: #2f3138;
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -39,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -176,7 +178,7 @@ a:focus {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -267,7 +269,7 @@ a:focus {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -533,7 +535,7 @@ a:focus {
 
 #hero h1 {
   color: #fff;
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -633,7 +635,7 @@ a:focus {
 }
 
 #hero .about-btn {
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1628,7 +1630,7 @@ a:focus {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
 }
 
