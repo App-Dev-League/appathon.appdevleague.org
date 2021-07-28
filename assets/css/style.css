@@ -13,7 +13,7 @@
 body {
   background: #f6f7fd;
   color: #2f3138;
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -178,7 +178,7 @@ a:focus {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -269,7 +269,7 @@ a:focus {
   align-items: center;
   justify-content: space-between;
   color: rgba(202, 206, 221, 0.8);
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -379,7 +379,7 @@ a:focus {
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
-  cursor: pointer;
+  cursor: poNunito;
   display: none;
   line-height: 0;
   transition: 0.5s;
@@ -535,7 +535,7 @@ a:focus {
 
 #hero h1 {
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 56px;
   font-weight: 600;
   text-transform: uppercase;
@@ -635,7 +635,7 @@ a:focus {
 }
 
 #hero .about-btn {
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1251,7 +1251,7 @@ a:focus {
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
-  cursor: pointer;
+  cursor: poNunito;
   color: #6e82b8;
   transition: 0.3s;
 }
@@ -1342,7 +1342,7 @@ a:focus {
 #subscribe button {
   border: 0;
   padding: 9px 25px;
-  cursor: pointer;
+  cursor: poNunito;
   background: #37517e;
   color: #fff;
   transition: all 0.3s ease;
@@ -1567,7 +1567,7 @@ a:focus {
   color: #fff;
   transition: 0.4s;
   border-radius: 50px;
-  cursor: pointer;
+  cursor: poNunito;
 }
 
 #contact .php-email-form button[type="submit"]:hover {
@@ -1630,7 +1630,7 @@ a:focus {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Inter", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #fff;
 }
 
@@ -1728,7 +1728,7 @@ a:focus {
   text-align: center;
   color: #fff;
   transition: 0.3s;
-  cursor: pointer;
+  cursor: poNunito;
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
